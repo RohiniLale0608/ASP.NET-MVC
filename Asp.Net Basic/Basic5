@@ -1,0 +1,19 @@
+Web Application Architecture -
+Client send request to Hebserver, Webservez send sequest to Dalabaje Server by using a cut coding & Pull the Data from Dadabase & Webserver formad this Data based on Client Requirement & send to the browser then Browset will Display the page as a HTTP Respose.
+Drawback of CGI
+Very Slow
+Hard to scale Lange Websites
+Server create a New process for every Request.
+PHP-[personal Home
+Pages] 1995
+PHP becomes one of the most populare dynamic Web Technology.
+Ex-facebook.
+HOW PHP HoEks.
+Browser (=) Webserver PHP Scerpt Database
+Advantages
+Embedded inside HTML
+Database Connectivity
+faster than CGI.
+* Embadded inside HTML-
+→
+means by using HTML We can not write for Loop 4 peint a one statement multiple time bust by using a EGI We can do this this called EIH
