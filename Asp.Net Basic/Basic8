@@ -1,0 +1,16 @@
+Web Application Development
+* Web Application
+A Web Application is a collection of Web pages 4 Web pages is a collection document displayed in Web browser OR Web pages is a Text collection.
+These Web pages usually cecaded by using HTML undee it cordains text, images, videos, hyperlinks, foons, & other multimedia content.
+Ex - Home page, About page, contact page, Logic page.
+Note: Every page has Pls own ORL
+HP://WWW.company.com/index.btinl
+- The URL of Home page is Always Index.html
+It's a standared
+* How Does Web pages Reach the Browser
+customer go to the browse
+↓
+A Browser send the HTTP Request through Internet
+↓
+A web seeve z take this request & format based on client exquiteement & Returen Web page
+Browser Display Page (HTTP Response)
