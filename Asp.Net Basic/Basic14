@@ -1,0 +1,16 @@
+* TCP/IP protocol for Web -
+BEDCDSEE & SCENEE We TCP/IP peatocols to communicate with inte enet.
+There are some common TCP/IP protocol
+HTTP - HypeEreet Teansfer Protocol, It's Not secerze
+2 HTTPS It's secure
+3 FTP file Transfer Protocal. It is wed to Jeanskzing files!
+SITTP Simple plaib transfer Protocal
+It is used to sending 4 seceiving a Email.
+*IP-Internet Protocal
+→
+Ip is a connectionless Protocal
+Why Ip is connectionless protocal.
+→ Ex- Bavically A client send a zequest through bexasez to server. 4 Server format this & send back to browser as a zesponse. there one connection 75 open.
+So A chaterpt How many peoples are used at a time many peoples & so many connections are open at a time. these all connection Rest which connection zesponse send back.
+Thats Why using Ip After sending response a connection coll stop immediately.
+- ap is Responsible for zouting each packet to the correct destination.
