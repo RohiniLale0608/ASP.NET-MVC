@@ -1,0 +1,24 @@
+* What is World Wide Web (WWW)
+The Web is Network of devices All over the world
+1
+All the divices on the Web can be communicate with each other.
+All the devices use a communication protocol called HTTP Protocol
+Protocol - It is a set of Rules
+* How does WWW Work?
+Web Information store in files called Web payes
+Heb pages collection is a Website σε Web Application.
+A Web Application or Website host on computer called Web server
+Device Reading Web pages called Web client
+Web clients view Web pages with program called Web browser.
+*
+How does Heb Browser fetch the Web pages
+Heb Browser fetch a Web pages the ow Webservez Request.
+- this Request is a standard strip Request It contains Webpage Address known as URL - Uniform Resource
+Locator
+Address & URL→ http(s)://WWW.com:80/index.html ↓
+format of URL Protocal
+Domain Name
+↓
+Poeti No
+Request
+Page
