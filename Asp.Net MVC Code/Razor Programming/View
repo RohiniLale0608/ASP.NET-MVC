@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @*Single Line Statement *@
+        @{ int count = 0;}
+        @{ count += 100;}
+        @{ string str = "Hello World";}
+        @{ Object obj = new object();}
+
+        @* In Line Statement*@ 
+
+        Value of Count is:@count
+        <br/>
+        Value of str is:@str
+        <br />
+        Obj is of Type:@obj.GetType()
+        <hr/>
+
+        @*Multi Line Statement*@
+
+        @{ 
+            string Date = DateTime.Now.ToShortDateString();
+            string Time = DateTime.Now.ToShortTimeString();
+            <span>Today's Date is:@Date</span><br/>
+            @:Current Time is:@Time<br />
+            <text>Current Time Is:@Time</text>
+        }
+        <hr />
+
+        @*If Condition In Razor Programming*@
+
+        @{ 
+            int x = 131;
+            if(x%2 == 0)
+            {
+                <span>@x is an even number.</span>
+            }
+            else 
+            { 
+                <span>@x is an odd number </span>
+            }
+
+           }
+        <hr/>
+
+        @{ 
+            string[] colors = { "Red", "Blue", "Green", "Yello", "Magenta", "black" };
+         }
+        @* Loop In Razor Programming - For Loop *@
+        @{ 
+            <h4>List of Colors Printed using for loop:</h4>
+            <ol>
+                @for(int i=0;i<colors.Length;i++)
+            {
+                <li>@colors[i]</li>
+            }
+            </ol>
+        }
+        <hr/>
+        <h1>List of Unorder list Colors</h1>
+        <ul>
+            @for(int i=0;i<colors.Length;i++)
+            {
+                <li>@colors[i]</li>
+            }
+        </ul>
+    </div>
+</body>
+</html>
