@@ -1,0 +1,16 @@
+*
+Ip Router -
+When an Ip packets is send from a computer, it azzives at an Ip Router.
+IP Routez is Now responsible for zouting the packeds to cozzerd destination, directly or via another Routez.
+* IP Address
+In a Network Every machine identified by using aunique Address knows as IP Address
+IP Address is Pareparet Nume Eic Number Each value-zanging between o to 255.
+Note: command to know IP Address
+Ping Www.google.com google IP
+Ip uses 32 bits of fouz byte numetic Value where each numbez should be zanging between o to 255
+* Domain Name
+A Name much easier to remember 12 digit Number
+Name used for IP Address is called Domain Name
+when you address a Website like WWW.facebook.com
+the name is translated to a number by a Domain Name Server (DAS)
+All over the World Domain Name commected to the interned DNS servez ace zesponsible for translating Domain Name into IP Address.
