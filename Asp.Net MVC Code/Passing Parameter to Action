@@ -1,0 +1,94 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using System.Web;
+using System.Web.Mvc;
+
+namespace MvcTestProject.Controllers
+{
+    public class ParamsController : Controller
+    {
+       public string Index1(int id)
+        {
+            return "The Value Of id Is:" + id;
+        }
+        public string Index2(int id = 0)
+        {
+            return "The Value Of Id Is:" + id;
+        }
+        public string Index3(int? id)
+        {
+            return "The Value Of Id Is: " + id;
+        }
+        public string Index4(int x)
+        {
+            return "The Value Of Id Is:" + x;
+        }
+        public string Index5(int? x)
+        {
+            return "The Value Of Id is:" + x;
+        }
+        public string Index6(string id)
+        {
+            return "The Value Of Id Is " + id;
+        }
+        public string Index7(int id ,string name)
+        {
+            return $"value of id is:{id} and value of name is:{name}";
+        }
+        public string Index8(int?id,string name)
+        {
+            return $"Value Of Id Is:{id} and value of name is:{name}";
+        }
+        public string Index9(int pid,string pname,double price)
+        {
+            return $"pid:{pid};pname:{pname};price:{price}";
+        }
+        public string Index10()
+        {
+            int pid = Convert.ToInt32(Request.QueryString["pid"]);
+            string pname = (Request.QueryString["pname"]);
+            double price = Convert.ToDouble(Request.QueryString["price"]);
+            return $"pid:{pid};pname:{pname};Price:{price}";
+        }
+        public string Validate1()
+        {
+            string name = Request["name"];
+            string pwd = Request["pwd"];
+            if (name == "Rohini" && pwd == "Admin")
+            {
+                return "valid User";
+            }
+            else
+                return "Invalid User";
+        }
+        public string Validate2(string name ,string pwd)
+        {
+            if (name == "Sadhu" && pwd == "Admid")
+            {
+                return "Successful";
+            }
+            else
+
+                return "Failed";
+        }
+        [ActionName("sayhello1")]
+        public string sayhello1()
+        {
+            return "Hello How are You";
+        }
+        [ActionName("sayhello2")]
+        public string sayhello2(string Name)
+        {
+            return "Hello" + Name +"How Are You";
+        }
+       
+        [NonAction]
+        private string Display()
+        {
+            return "NOn-Action Method";
+        }
+    }
+}
