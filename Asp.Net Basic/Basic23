@@ -1,0 +1,22 @@
+3 Mobile App 8+
+A mobile App How it works in the backgroud.
+A service can provides a data. Withoud service A mobile Application can'd Run.
+A Desktop De Web moy of not use service Without service they works ent a o Sometimes. may
+# Login foem Explaination.
+<input type = "text" id = "test Name" name=txtName"/> </td>
+id- Refer to the conteal on client side Name - Refer to the control on serverside..
+Node :-
+Id 4- Name values we gives a some value, Becouse for confusion. Iwhen the id & Hame are diff A SeEver get confused thats Why Both erre same.
+Foem tag Attribute
+There cree two Addeibutes of form tag
+Action
+Method
+It is used for security of
+<form action="Validade.html method=get/Posty
+Action
+a action dell Where i go & sumbit
+Method
+How Data should be transfer to the server
+Post -
+Giet Data Values are contatinate to the URL In this cave values are passed to the HITP headers Not Visible to anyone It is secure
+Default Action is some page in frems
