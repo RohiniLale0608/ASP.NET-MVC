@@ -1,0 +1,20 @@
+* How To Access Web pages through Local machine & Remate Machine the cugh Default Website on server.
+7 Local machine: https://localhost / Login.html. OR https://seevee Huginitted
+Remote machine: https://servez | Login.html
+2) Local machine
+: http://localhost /sider login.html http://hside / Kogin.html
+OR
+Add Application
+3 Local machine : http:// Localhost /site2 / Login.html
+through Add virtual directory.
+*TO Accessing a Web pages we need to required Web server
+* Working with What is Web hosting --
+Hosting is a scEvice Provided by the companies that sell of Lease space on a servez Where you can store the files that make your Website accessible on the internet.
+sown -This typically require that Domain Name
+* klocking With IIS Web servez -
+IIS stands for Internet Information service
+IIS Web server is a Product of Microsoft & more compartibile with ASP.NET GOEe Applications.
+IIS is a paret of Windows os Which is Genezally install on goure machine along with .os.
+To verify A server is there σε not rype
+http://localhost.
+OR inet omge
